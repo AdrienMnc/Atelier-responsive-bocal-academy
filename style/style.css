@@ -1,0 +1,71 @@
+header{
+    text-align: center;
+}
+
+header img{
+    width: 200px;
+}
+
+.titreHeader{
+    color: red;
+}
+
+
+
+
+
+
+.fuckDisplay{
+    display: flex;
+    gap: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    
+
+}
+
+.image img{
+   max-width: 100%;
+  
+}
+
+.troisBoites{
+    border-left: solid 20px red;
+    background-color: rgb(202, 202, 205);
+    
+}
+
+.titreDuFilm h1{
+    position: relative;
+    bottom: 51px;
+    left: 11%;
+    color: white;
+    font-size: 22px;
+
+}
+
+.titreDuFilm{
+    position: absolute;
+}
+
+.noteEtParCritique{
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraphe{
+    text-align: inherit;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .fuckDisplay{
+
+        flex-direction: column;
+    }
+}
